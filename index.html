@@ -6,31 +6,12 @@
     <title>Reverse String</title>
 </head>
 <body>
-    <div style="position: relative; left:5%">
+    <div style="position: relative; left:5%;">
          <h1>Reverse String Program</h1>
-         <button onclick="reverseString()" style="background-color: black; width:20%; height:60px;color:white; font-size: 20px;border-radius: 7px;  ">Reverse Word</button>
-
+       <button onclick="reverseString()" style="background-color: black; width:20%; height:60px;color:white; font-size: 20px;border-radius: 7px;  ">Reverse Word</button>
+       <h3>right-click to open inspect, then view console to check result</h3>
+      
     </div>
-   
-    <!--Script-->
-    <Script>
-     function reverseString(){
-    
-     //Prompt user for a string and Store prompted string in variable
-     let givenWord = prompt("Please enter a string e.g. hello or welcome");
-     //store the result in a variable
-     let resultWord ="";
-    //create a for loop starting at end of string till 0 and keep adding every character at each index iteration
-    for(let i =givenWord.length-1; i>=0; i--){
-         resultWord +=givenWord[i];
-    }
-    //return result
-    console.log(resultWord);
-     }
-    
-   
-    
-    </Script>
-   
+  <script src="index.js"></script>
 </body>
 </html>
