@@ -1,3 +1,4 @@
+//challenge 1................................................................................................
 function reverseString(){
 //Prompt user for a string and Store prompted string in variable
      let givenWord = prompt("Please enter a string e.g. hello or welcome");
@@ -10,7 +11,7 @@ function reverseString(){
     //return result
     console.log(resultWord);
      }
-
+   //Chalenge 2...............................................................................................
      function NumberOfVowels(){
         //prompt user to insert word, store prompt in a variable 
         let newWord=prompt("Please insert any word with vowels, e.g talk or come"); 
@@ -25,8 +26,20 @@ function reverseString(){
         
         //return result to console
         console.log(numVowels);
-       
-    
-     
      }
+       //Challenge 3..............................................................................................
+      function RemoveSpace(){
+        //prompt user to insert word, store prompt in a variable 
+        let newWord2= prompt("Please insert any words with a space in between it e.g. Micha el or Rob ert");
+        let firstword;
+        let lastWord;
+        //create a variable to store result
+        let fullWord ="";
+        firstword = newWord2.slice(0,newWord2.indexOf(" "));
+        lastWord = newWord2.slice(newWord2.indexOf(" ") + 1);
+        fullWord = firstword + lastWord;
+        console.log(fullWord);
+      }
+     
+    
     
