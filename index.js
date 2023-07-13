@@ -10,4 +10,23 @@ function reverseString(){
     //return result
     console.log(resultWord);
      }
+
+     function NumberOfVowels(){
+        //prompt user to insert word, store prompt in a variable 
+        let newWord=prompt("Please insert any word with vowels, e.g talk or come"); 
+        //create a variable to store result
+        let numVowels = 0; 
+        //iterate though every letter, add 1 if letter is a, e, i, o or u
+        for(let i = 0; i<newWord.length-1; i++){
+            if((newWord[i]=='a') || (newWord[i]=='e')||(newWord[i]=='i')||(newWord[i]=='o')||(newWord[i]=='u')){
+                numVowels +=1;
+            }
+        }
+        
+        //return result to console
+        console.log(numVowels);
+       
+    
+     
+     }
     
