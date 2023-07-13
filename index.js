@@ -17,7 +17,7 @@ function reverseString(){
         //create a variable to store result
         let numVowels = 0; 
         //iterate though every letter, add 1 if letter is a, e, i, o or u
-        for(let i = 0; i<newWord.length-1; i++){
+        for(let i = 0; i<=newWord.length-1; i++){
             if((newWord[i]=='a') || (newWord[i]=='e')||(newWord[i]=='i')||(newWord[i]=='o')||(newWord[i]=='u')){
                 numVowels +=1;
             }
